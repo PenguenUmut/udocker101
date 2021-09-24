@@ -1,0 +1,14 @@
+{
+  "name": "udocker101",
+  "version": "1.0.0",
+  "description": "udocker101 test",
+  "main": "server.js",
+  "author": "Penguen Umut",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
