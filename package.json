@@ -13,7 +13,7 @@
     "docker-remove": "docker image rm udocker101-image:latest || true",
     "docker-build": "docker build . -t udocker101-image:latest",
     "docker-run": "docker run -p 9090:8080 -d --name udocker101-container udocker101-image:latest ",
-    "docker": "yarn build && yarn docker-stop && yarn docker-prune && yarn docker-remove && yarn docker-build && yarn docker-build && yarn docker-run"
+    "docker": "yarn build && yarn docker-stop && yarn docker-prune && yarn docker-remove && yarn docker-build && yarn docker-run"
   },
   "dependencies": {
     "express": "^4.17.1"
